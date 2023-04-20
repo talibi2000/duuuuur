@@ -7,7 +7,7 @@ from dateutil.relativedelta import relativedelta
 
 
 def calcul_emprunt(profil, capital, taux_interet, date_maturite, VALUE_DATE, periodicite):
-    dff=pd.read_excel('C:\\Users\\HP\\Desktop\\Output\\TCI.xlsx', sheet_name='DATA')
+    dff=pd.read_excel('TCI.xlsx', sheet_name='DATA')
     if periodicite == 'annuel':
         increment = relativedelta(months=12)
         frequence_paiement = 1
