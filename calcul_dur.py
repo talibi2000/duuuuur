@@ -1,6 +1,8 @@
+pip install openpyxl
 import streamlit as st
 import numpy as np
 import pandas as pd
+import openpyxl
 from datetime import datetime
 from PIL import Image
 from dateutil.relativedelta import relativedelta
