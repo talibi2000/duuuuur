@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+openpyxl
+datetime
+dateutil
+relativedelta
+pillow
